@@ -12,4 +12,4 @@ for i in range(0, n_arr):
 mean = sum_arr2 / n_arr2
 
 print(sum(arr1), end=' ')
-print(mean)
+print(f"{mean:.1f}")
