@@ -5,8 +5,16 @@
 |[Novice Low / 연산자 / 사칙연산](https://www.codetree.ai/missions?missionId=4)|10xp|![쉬움][easy]|
 
 
+```
+a, b = map(int, input().split())
 
+c = (a+b)/(a-b)
 
+print("round(c, 2)")
+```
+처음엔 위와 같은 코드를 작성하여 제출했더니 테스트 케이스 중 a=726, b=257인 경우 c가 2.095948...이라서 반올림 시 2.10이 되어 출력 시 2.1이 되는 경우가 있었다.
+그래서 포맷팅을 통해 
+```print(f"{round(c, 2):.2f}")```으로 자릿수를 지정해 주었다.
 
 
 
