@@ -3,9 +3,9 @@ arr = list(map(int, input().split()))
 
 even_arr = []
 
-for ele in arr:
-    if ele % 2 == 0:
-        even_arr.append(ele)
+for e in arr:
+    if e % 2 == 0:
+        even_arr.append(e)
 
-for ele in even_arr:
-    print(ele, end=' ')
+for e in even_arr:
+    print(e, end=' ')
