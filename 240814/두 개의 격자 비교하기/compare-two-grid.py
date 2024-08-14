@@ -1,5 +1,5 @@
 def make_arr(arr, n, m):
-    for _ in range(0,m):
+    for _ in range(0,n):
         row = list(map(int, input().split()))
         arr. append(row)
     return arr
