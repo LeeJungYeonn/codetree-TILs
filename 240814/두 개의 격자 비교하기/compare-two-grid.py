@@ -1,16 +1,14 @@
-def make_arr(arr, n, m):
-    for _ in range(m):
-        row = list(map(int, input().split()))
-        arr. append(row)
-    return arr
-
 n, m = map(int, input().split())
 
 arr1 = []
-make_arr(arr1, n, m)
+for _ in range(m):
+    row = list(map(int, input().split()))
+    arr1. append(row)
 
 arr2 = []
-make_arr(arr2, n, m)
+for _ in range(m):
+    row = list(map(int, input().split()))
+    arr2.append(row)
 
 result = []
 for _ in range(m):
