@@ -16,12 +16,12 @@ result = [
     for _ in range(n)
 ]
 
-for i in range(0,n):
-    for j in range(0,m):
+for i in range(n):
+    for j in range(m):
         if arr1[i][j] != arr2[i][j]:
             result[i][j] = 1
 
-for i in range(0,n):
-    for j in range(0,m):
+for i in range(n):
+    for j in range(m):
         print(result[i][j], end=' ')
     print()
