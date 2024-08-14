@@ -1,7 +1,7 @@
 def make_arr(n):
     arr = [
     list(map(int, input().split()))
-    for _ in range(0, n)
+    for _ in range(n)
     ]
     return arr
 
@@ -23,7 +23,5 @@ for i in range(0,n):
 
 for i in range(0,n):
     for j in range(0,m):
-        if j != (m-1):
-            print(result[i][j], end=' ')
-        else:
-            print(result[i][j])
+        print(result[i][j], end=' ')
+    print()
