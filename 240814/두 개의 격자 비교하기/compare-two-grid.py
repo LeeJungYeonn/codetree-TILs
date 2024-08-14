@@ -17,14 +17,12 @@ for _ in range(0,m):
     row = [0]*n
     result.append(row)
 
-for i in range(n):
+for i in range(0,n):
     for j in range(0,m):
-        if arr1[i][j] == arr2[i][j]:
-            result[i][j] = 0
-        else:
+        if arr1[i][j] != arr2[i][j]:
             result[i][j] = 1
 
-for i in range(n):
+for i in range(0,n):
     for j in range(0,m):
         if j != (m-1):
             print(result[i][j], end=' ')
