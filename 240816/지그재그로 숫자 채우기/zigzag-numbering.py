@@ -7,7 +7,7 @@ arr = [
 
 num = 0
 for i in range(m):
-    if i % 2 == 0:
+    if i % 2 == 0: # m은 전체 열 개수, i가 각 행!!!
         for j in range(n):
             arr[j][i] = num
             num += 1
