@@ -7,7 +7,7 @@ arr = [
 
 num = 1
 for j in range(n-1, -1, -1):
-    if n-1 % 2 != 0:
+    if (n-1) % 2 != 0:
         if j % 2 != 0:
             for i in range(n-1, -1, -1):
                 arr[i][j] = num
