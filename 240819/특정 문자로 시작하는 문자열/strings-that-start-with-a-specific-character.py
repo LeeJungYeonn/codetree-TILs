@@ -8,14 +8,13 @@ start = input()
 
 cnt = 0
 arr2 = []
+len_sum = 0
 for ele in arr:
     if ele[0] == start:
         cnt += 1
         arr2.append(ele)
+        len_sum += len(ele)
 
-len_arr = 0
-for ele in arr2:
-    len_arr += len(ele)
-mean = len_arr / cnt
+mean = len_sum / cnt
 
 print(f"{cnt} {mean:.2f}")
