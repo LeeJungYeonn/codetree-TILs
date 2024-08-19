@@ -14,6 +14,7 @@ for i in range(N - M + 1):
     
     if all_same == True:
         start = i
+        break
     else:
         start = -1
 
