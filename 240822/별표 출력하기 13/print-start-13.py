@@ -14,8 +14,8 @@ for i in range(n):
         print()
         num2 += 1
 
-for i in range(n):
-    if i % 2 != 0:
+for i in range(n, 2*n):
+    if i % 2 == 0:
         for j in range(num1):
             print('* ', end='')
         print()
